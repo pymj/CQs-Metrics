@@ -1,0 +1,9 @@
+model_options:
+  chunk_size: 512
+  chunk_overlap: 256
+  topic_model:
+    - "bert"   # Add more topic models as needed
+  topic_model_kwargs:
+    nr_topics: 'auto'
+    top_n_words: 5
+    seed_multiplier: 0.25
